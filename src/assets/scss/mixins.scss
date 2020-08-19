@@ -1,0 +1,131 @@
+//flex
+@mixin flex() {
+  display: flex;
+}
+
+@mixin flex-1 {
+  flex: 1 1 0%;
+}
+
+@mixin flex-column {
+  flex-direction: column;
+}
+
+@mixin self-center {
+  align-self:center;
+}
+
+@mixin flex-wrap {
+  flex-wrap: wrap;
+}
+
+@mixin justify-center {
+  justify-content: center;
+}
+
+@mixin justify-between {
+  justify-content: space-between;
+}
+
+@mixin justify-around {
+  justify-content: space-around;
+}
+
+@mixin justify-evenly {
+  justify-content: space-evenly;
+}
+
+
+@mixin justify-end {
+  justify-content: flex-end;
+}
+
+@mixin align-center {
+  align-items: center;
+}
+
+@mixin align-start {
+  align-items: flex-start;
+}
+
+//general
+@mixin hidden {
+  display: none;
+}
+
+@mixin overflow-hidden {
+  overflow: hidden;
+}
+
+@mixin max-w-none {
+  max-width: none;
+}
+
+@mixin text-center {
+  text-align: center;
+}
+
+@mixin w-full {
+  width: 100%;
+}
+
+@mixin w-content {
+  width: max-content;
+}
+
+@mixin cursor-pointer {
+  cursor: pointer;
+}
+
+@mixin h-content {
+  height: max-content;
+}
+
+@mixin max-w-full {
+  max-width: 100%;
+}
+
+@mixin text-right {
+  text-align: right;
+}
+
+@mixin text-left {
+  text-align: left;
+}
+
+@mixin margin-auto {
+  margin: 0 auto;
+}
+
+@mixin block {
+  display: block;
+}
+
+@mixin absolute {
+  position: absolute;
+}
+
+@mixin relative {
+  position: relative;
+}
+
+//grid
+@mixin grid {
+  display: grid;
+}
+
+@mixin grid-columns-1fr($child) {
+  grid-template-columns: repeat($child, 1fr);
+}
+
+@mixin grid-columns-content($child) {
+  grid-template-columns: repeat($child, max-content);
+}
+
+@mixin grid-columns-auto {
+  grid-template-columns: auto;
+}
+
+@mixin grid-rows-content($child) {
+  grid-template-rows: repeat($child, max-content);
+}

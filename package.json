@@ -1,0 +1,69 @@
+{
+  "name": "hockey-poster",
+  "description": "Tool that generate poster for hockey players -- https://utpstaging.com/imagick-demo/visual-center/",
+  "version": "1.2.0",
+  "private": false,
+  "homepage": ".",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vadimaus/hockey-poster"
+  },
+  "author": "Vadim Visnevschi <vadimauss@yahoo.com> (http://github.com/vadimaus)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "babel-preset-env": "^1.7.0",
+    "base64-image-utils": "^1.1.2",
+    "bootstrap": "^4.4.1",
+    "d3-ease": "^1.0.6",
+    "js-base64": "^2.5.1",
+    "lodash": "^4.17.15",
+    "node-vibrant": "^3.1.5",
+    "query-string": "^6.9.0",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-circular-progressbar": "^2.0.3",
+    "react-dom": "^16.9.0",
+    "react-dropzone": "^4.0.0",
+    "react-emojione": "^5.0.1",
+    "react-image-lightbox": "^5.1.1",
+    "react-input-color": "^2.0.28",
+    "react-move": "^6.1.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.1.2",
+    "react-spinners": "^0.6.1",
+    "react-switch": "^5.0.1",
+    "react-toastify": "^5.5.0",
+    "rxjs": "^6.5.3",
+    "rxjs-compat": "^6.5.3",
+    "sass": "^1.26.10"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=dev REACT_APP_ENVIRONMENT=local react-scripts start",
+    "build-dev": "cross-env NODE_ENV=production REACT_APP_ENVIRONMENT=development react-scripts build",
+    "build": "cross-env NODE_ENV=production REACT_APP_ENVIRONMENT=production react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "gh-pages": "^2.1.1"
+  }
+}
