@@ -1386,14 +1386,14 @@ class IndividualPosterNew extends React.Component {
                   {this.state.hide ? (
                     <ul className="dropdown-menu modern_menu">
                       <li className="disabled CmApp-Tools-undoMenuItem">
-                        <a className="CmApp-Tools-undo" disabled="disabled">
+                        <a href="#" className="CmApp-Tools-undo" disabled="disabled">
                           <span className="yo-data-uri undo-icon-svg"></span>
                           <span>Undo</span>
                         </a>
                       </li>
 
                       <li className="disabled CmApp-Tools-redoMenuItem">
-                        <a className="CmApp-Tools-redo" disabled="disabled">
+                        <a href="#" className="CmApp-Tools-redo" disabled="disabled">
                           <span className="yo-data-uri redo-icon-svg"></span>
                           <span>Redo</span>
                         </a>
@@ -1404,7 +1404,7 @@ class IndividualPosterNew extends React.Component {
                         title="Please log in to copy/paste masks. "
                         alt="Please log in to copy/paste masks. "
                       >
-                        <a className="CmApp-Tools-copy_mask_tool">
+                        <a href="#" className="CmApp-Tools-copy_mask_tool">
                           <span className="yo-data-uri copy-icon-svg"></span>
                           <span>Copy Marks</span>
                         </a>
@@ -1415,21 +1415,21 @@ class IndividualPosterNew extends React.Component {
                         title="Please log in to copy/paste masks. "
                         alt="Please log in to copy/paste masks. "
                       >
-                        <a className="CmApp-Tools-paste_mask_tool">
+                        <a href="#" className="CmApp-Tools-paste_mask_tool">
                           <span className="yo-data-uri paste-icon-svg"></span>
                           <span>Paste Marks</span>
                         </a>
                       </li>
 
                       <li className="">
-                        <a className="CmApp-Tools-clear_user_mask_tool">
+                        <a href="#" className="CmApp-Tools-clear_user_mask_tool">
                           <span className="yo-data-uri clear-mask-icon-svg"></span>
                           <span>Clear Marks</span>
                         </a>
                       </li>
                       <li role="separator" className="divider"></li>
                       <li className="">
-                        <a className="CmApp-Tools-clear_all_edits">
+                        <a href="#" className="CmApp-Tools-clear_all_edits">
                           <span className="yo-data-uri revert-icon-svg"></span>
                           <span>Clear All</span>
                         </a>
@@ -1792,7 +1792,7 @@ class IndividualPosterNew extends React.Component {
                 <div className="app_bttn_group">
                   <div className="app_bttn app_bttn_white">
                     <span>
-                      <a rel="noopener" target="_blank" href="/pricing">
+                      <a href="#" rel="noopener" target="_blank" href="/pricing">
                         Pricing{" "}
                         <span className="glyphicon glyphicon-new-window font-sm">
                           {" "}
@@ -1845,7 +1845,7 @@ class IndividualPosterNew extends React.Component {
           <div className="CmApp-Sidebar-container">
             <div className="CmApp-Sidebar-mode_container">
               <div className="CmApp-Sidebar-item CmApp-Sidebar-mode_title noselect">
-                <a
+                <a href="#"
                   rel="noopener"
                   target="_blank"
                   href="/tutorials/processing-modes"
@@ -1953,7 +1953,7 @@ class IndividualPosterNew extends React.Component {
                       front and center. We recommend making fit-to-result on a
                       white background the default for your images.
                       <span>
-                        <a
+                        <a href="#"
                           rel="noopener"
                           target="_blank"
                           href="/tutorials/sticky-settings#e-commerce-defaults"
@@ -2096,7 +2096,7 @@ class IndividualPosterNew extends React.Component {
                             </li>
                             <li role="separator" className="divider"></li>
                             <li className="CmApp-StickySettings-set disabled">
-                              <a className="SettingsGroups-BrushSize-setStickyToCurrent disabled">
+                              <a href="#" className="SettingsGroups-BrushSize-setStickyToCurrent disabled">
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
                                   viewBox="0 0 15 15"
@@ -2119,7 +2119,7 @@ class IndividualPosterNew extends React.Component {
                               </a>
                             </li>
                             <li className="CmApp-StickySettings-reset disabled">
-                              <a className="SettingsGroups-BrushSize-setCurrentToDefault disabled">
+                              <a href="#" className="SettingsGroups-BrushSize-setCurrentToDefault disabled">
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
                                   viewBox="0 0 15 15"
@@ -2140,7 +2140,7 @@ class IndividualPosterNew extends React.Component {
                             </li>
                             <li role="separator" className="divider"></li>
                             <li className="CmApp-StickySettings-factory disabled">
-                              <a className="SettingsGroups-BrushSize-setCurrentAndStickyToFactory disabled">
+                              <a href="#" className="SettingsGroups-BrushSize-setCurrentAndStickyToFactory disabled">
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
                                   viewBox="0 0 15 15"
@@ -2161,7 +2161,7 @@ class IndividualPosterNew extends React.Component {
                             </li>
                             <li role="separator" className="divider"></li>
                             <li className="">
-                              <a className="sticky_settings">
+                              <a href="#" className="sticky_settings">
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
                                   viewBox="0 0 15 15"
@@ -2437,7 +2437,7 @@ class IndividualPosterNew extends React.Component {
                             </li>
                             <li role="separator" className="divider"></li>
                             <li className="CmApp-StickySettings-set disabled">
-                              <a className="SettingsGroups-BackgroundColor-setStickyToCurrent disabled">
+                              <a href="#" className="SettingsGroups-BackgroundColor-setStickyToCurrent disabled">
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
                                   viewBox="0 0 15 15"
@@ -2460,7 +2460,7 @@ class IndividualPosterNew extends React.Component {
                               </a>
                             </li>
                             <li className="CmApp-StickySettings-reset disabled">
-                              <a className="SettingsGroups-BackgroundColor-setCurrentToDefault disabled">
+                              <a href="#" className="SettingsGroups-BackgroundColor-setCurrentToDefault disabled">
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
                                   viewBox="0 0 15 15"
@@ -2481,7 +2481,7 @@ class IndividualPosterNew extends React.Component {
                             </li>
                             <li role="separator" className="divider"></li>
                             <li className="CmApp-StickySettings-factory disabled">
-                              <a className="SettingsGroups-BackgroundColor-setCurrentAndStickyToFactory disabled">
+                              <a href="#" className="SettingsGroups-BackgroundColor-setCurrentAndStickyToFactory disabled">
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
                                   viewBox="0 0 15 15"
@@ -2502,7 +2502,7 @@ class IndividualPosterNew extends React.Component {
                             </li>
                             <li role="separator" className="divider"></li>
                             <li className="">
-                              <a className="sticky_settings">
+                              <a href="#" className="sticky_settings">
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
                                   viewBox="0 0 15 15"
@@ -2571,7 +2571,7 @@ class IndividualPosterNew extends React.Component {
                   <div className="CmApp-Cat-onlyIsLogoMode alert alert-info">
                     <p>
                       Corners, Smoothing, and Offset unavailable in{" "}
-                      <a
+                      <a href="#"
                         rel="noopener"
                         target="_blank"
                         href="/tutorials/processing-modes"
@@ -2588,7 +2588,7 @@ class IndividualPosterNew extends React.Component {
                 <div className="CmApp-tool_popover_content">
                   <div className="refine-unit">
                     <p className="CmApp-Tools-label">
-                      <a
+                      <a href="#"
                         target="tutorial"
                         href="/tutorials/refine-edges#corners"
                       >
@@ -2627,7 +2627,7 @@ class IndividualPosterNew extends React.Component {
                   </div>
                   <div className="CmApp-Cat-disableInLogoMode refine-unit">
                     <p className="CmApp-Tools-label">
-                      <a
+                      <a href="#"
                         target="tutorial"
                         href="/tutorials/refine-edges#smoothing"
                       >
@@ -2696,7 +2696,7 @@ class IndividualPosterNew extends React.Component {
                   </div>
                   <div className="refine-unit">
                     <p className="CmApp-Tools-label">
-                      <a
+                      <a href="#"
                         target="tutorial"
                         href="/tutorials/refine-edges#feathering-radius"
                       >
@@ -2765,7 +2765,7 @@ class IndividualPosterNew extends React.Component {
                   </div>
                   <div className="CmApp-Cat-disableInLogoMode refine-unit">
                     <p className="CmApp-Tools-label">
-                      <a
+                      <a href="#"
                         target="tutorial"
                         href="/tutorials/refine-edges#offset"
                       >
@@ -2845,7 +2845,7 @@ class IndividualPosterNew extends React.Component {
                         </li>
                         <li role="separator" className="divider"></li>
                         <li className="CmApp-StickySettings-set disabled">
-                          <a className="SettingsGroups-Edges-setStickyToCurrent disabled">
+                          <a href="#" className="SettingsGroups-Edges-setStickyToCurrent disabled">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               viewBox="0 0 15 15"
@@ -2868,7 +2868,7 @@ class IndividualPosterNew extends React.Component {
                           </a>
                         </li>
                         <li className="CmApp-StickySettings-reset disabled">
-                          <a className="SettingsGroups-Edges-setCurrentToDefault disabled">
+                          <a href="#" className="SettingsGroups-Edges-setCurrentToDefault disabled">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               viewBox="0 0 15 15"
@@ -2889,7 +2889,7 @@ class IndividualPosterNew extends React.Component {
                         </li>
                         <li role="separator" className="divider"></li>
                         <li className="CmApp-StickySettings-factory disabled">
-                          <a className="SettingsGroups-Edges-setCurrentAndStickyToFactory disabled">
+                          <a href="#" className="SettingsGroups-Edges-setCurrentAndStickyToFactory disabled">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               viewBox="0 0 15 15"
@@ -2910,7 +2910,7 @@ class IndividualPosterNew extends React.Component {
                         </li>
                         <li role="separator" className="divider"></li>
                         <li className="">
-                          <a className="sticky_settings">
+                          <a href="#" className="sticky_settings">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               viewBox="0 0 15 15"
@@ -3374,7 +3374,7 @@ class IndividualPosterNew extends React.Component {
                         <div className="alert alert-warning">
                           <p>
                             Please{" "}
-                            <a href="/login">Log In or Create an Account</a> to
+                            <a href="#" href="/login">Log In or Create an Account</a> to
                             use the default settings feature.
                           </p>
                         </div>
@@ -7143,7 +7143,7 @@ class IndividualPosterNew extends React.Component {
                         <div className="alert alert-warning">
                           <p>
                             Please{" "}
-                            <a href="/login">Log In or Create an Account</a> to
+                            <a href="#" href="/login">Log In or Create an Account</a> to
                             use the input options feature.
                           </p>
                         </div>
@@ -7337,22 +7337,22 @@ class IndividualPosterNew extends React.Component {
                                     <i className="Icons-down_carrot"></i>
                                     <ul className="dropdown-menu modern_menu hidden">
                                       <li className="">
-                                        <a className="CmApp-ColorsApp-ColorSpace-SRgb">
+                                        <a href="#" className="CmApp-ColorsApp-ColorSpace-SRgb">
                                           <span>sRGB (Web Standard)</span>
                                         </a>
                                       </li>
                                       <li className="">
-                                        <a className="CmApp-ColorsApp-ColorSpace-AdobeRgb">
+                                        <a href="#" className="CmApp-ColorsApp-ColorSpace-AdobeRgb">
                                           <span>Adobe RGB (1998)</span>
                                         </a>
                                       </li>
                                       <li className="">
-                                        <a className="CmApp-ColorsApp-ColorSpace-AppleRgb">
+                                        <a href="#" className="CmApp-ColorsApp-ColorSpace-AppleRgb">
                                           <span>Apple RGB</span>
                                         </a>
                                       </li>
                                       <li className="">
-                                        <a className="CmApp-ColorsApp-ColorSpace-ColorMatchRgb">
+                                        <a href="#" className="CmApp-ColorsApp-ColorSpace-ColorMatchRgb">
                                           <span>ColorMatch RGB</span>
                                         </a>
                                       </li>
@@ -7405,7 +7405,7 @@ class IndividualPosterNew extends React.Component {
                                       className="divider"
                                     ></li>
                                     <li className="CmApp-StickySettings-set disabled">
-                                      <a className="SettingsGroups-Colors-ColorSpace-setStickyToCurrent disabled">
+                                      <a href="#" className="SettingsGroups-Colors-ColorSpace-setStickyToCurrent disabled">
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
                                           viewBox="0 0 15 15"
@@ -7429,7 +7429,7 @@ class IndividualPosterNew extends React.Component {
                                     </li>
 
                                     <li className="CmApp-StickySettings-reset disabled">
-                                      <a className="SettingsGroups-Colors-ColorSpace-setCurrentToDefault disabled">
+                                      <a href="#" className="SettingsGroups-Colors-ColorSpace-setCurrentToDefault disabled">
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
                                           viewBox="0 0 15 15"
@@ -7453,7 +7453,7 @@ class IndividualPosterNew extends React.Component {
                                       className="divider"
                                     ></li>
                                     <li className="CmApp-StickySettings-factory disabled">
-                                      <a className="SettingsGroups-Colors-ColorSpace-setCurrentAndStickyToFactory disabled">
+                                      <a href="#" className="SettingsGroups-Colors-ColorSpace-setCurrentAndStickyToFactory disabled">
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
                                           viewBox="0 0 15 15"
@@ -7477,7 +7477,7 @@ class IndividualPosterNew extends React.Component {
                                       className="divider"
                                     ></li>
                                     <li className="">
-                                      <a className="sticky_settings">
+                                      <a href="#" className="sticky_settings">
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
                                           viewBox="0 0 15 15"
@@ -7560,17 +7560,17 @@ class IndividualPosterNew extends React.Component {
                                     <i className="Icons-down_carrot"></i>
                                     <ul className="dropdown-menu modern_menu hidden">
                                       <li className="">
-                                        <a className="CmApp-CropApp-DpiPresets-preset72">
+                                        <a href="#" className="CmApp-CropApp-DpiPresets-preset72">
                                           <span>72 DPI</span>
                                         </a>
                                       </li>
                                       <li className="">
-                                        <a className="CmApp-CropApp-DpiPresets-preset96">
+                                        <a href="#" className="CmApp-CropApp-DpiPresets-preset96">
                                           <span>96 DPI</span>
                                         </a>
                                       </li>
                                       <li className="">
-                                        <a className="CmApp-CropApp-DpiPresets-preset300">
+                                        <a href="#" className="CmApp-CropApp-DpiPresets-preset300">
                                           <span>300 DPI</span>
                                         </a>
                                       </li>
@@ -7661,7 +7661,7 @@ class IndividualPosterNew extends React.Component {
                                       className="divider"
                                     ></li>
                                     <li className="CmApp-StickySettings-set disabled">
-                                      <a className="SettingsGroups-Crop-Dpi-setStickyToCurrent disabled">
+                                      <a href="#" className="SettingsGroups-Crop-Dpi-setStickyToCurrent disabled">
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
                                           viewBox="0 0 15 15"
@@ -7685,7 +7685,7 @@ class IndividualPosterNew extends React.Component {
                                     </li>
 
                                     <li className="CmApp-StickySettings-reset disabled">
-                                      <a className="SettingsGroups-Crop-Dpi-setCurrentToDefault disabled">
+                                      <a href="#" className="SettingsGroups-Crop-Dpi-setCurrentToDefault disabled">
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
                                           viewBox="0 0 15 15"
@@ -7709,7 +7709,7 @@ class IndividualPosterNew extends React.Component {
                                       className="divider"
                                     ></li>
                                     <li className="CmApp-StickySettings-factory disabled">
-                                      <a className="SettingsGroups-Crop-Dpi-setCurrentAndStickyToFactory disabled">
+                                      <a href="#" className="SettingsGroups-Crop-Dpi-setCurrentAndStickyToFactory disabled">
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
                                           viewBox="0 0 15 15"
@@ -7733,7 +7733,7 @@ class IndividualPosterNew extends React.Component {
                                       className="divider"
                                     ></li>
                                     <li className="">
-                                      <a className="sticky_settings">
+                                      <a href="#" className="sticky_settings">
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
                                           viewBox="0 0 15 15"
@@ -7861,7 +7861,7 @@ class IndividualPosterNew extends React.Component {
                                   </button>
                                   <ul className="dropdown-menu modern_menu dropdown-menu-right hidden">
                                     <li className="disabled bg-warning">
-                                      <a href="#" className="i space-normal">
+                                      <a href="#"  className="i space-normal">
                                         Please log in or create an account to
                                         use the default settings feature.{" "}
                                       </a>
@@ -7871,7 +7871,7 @@ class IndividualPosterNew extends React.Component {
                                       className="divider"
                                     ></li>
                                     <li className="CmApp-StickySettings-set disabled">
-                                      <a className="SettingsGroups-ExportOptions-OpaqueFileFormat-setStickyToCurrent disabled">
+                                      <a href="#" className="SettingsGroups-ExportOptions-OpaqueFileFormat-setStickyToCurrent disabled">
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
                                           viewBox="0 0 15 15"
@@ -7895,7 +7895,7 @@ class IndividualPosterNew extends React.Component {
                                     </li>
 
                                     <li className="CmApp-StickySettings-reset disabled">
-                                      <a className="SettingsGroups-ExportOptions-OpaqueFileFormat-setCurrentToDefault disabled">
+                                      <a href="#" className="SettingsGroups-ExportOptions-OpaqueFileFormat-setCurrentToDefault disabled">
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
                                           viewBox="0 0 15 15"
@@ -7919,7 +7919,7 @@ class IndividualPosterNew extends React.Component {
                                       className="divider"
                                     ></li>
                                     <li className="CmApp-StickySettings-factory disabled">
-                                      <a className="SettingsGroups-ExportOptions-OpaqueFileFormat-setCurrentAndStickyToFactory disabled">
+                                      <a href="#" className="SettingsGroups-ExportOptions-OpaqueFileFormat-setCurrentAndStickyToFactory disabled">
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
                                           viewBox="0 0 15 15"
@@ -7943,7 +7943,7 @@ class IndividualPosterNew extends React.Component {
                                       className="divider"
                                     ></li>
                                     <li className="">
-                                      <a className="sticky_settings">
+                                      <a href="#" className="sticky_settings">
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
                                           viewBox="0 0 15 15"
@@ -8023,31 +8023,31 @@ class IndividualPosterNew extends React.Component {
                                     <i className="Icons-down_carrot"></i>
                                     <ul className="dropdown-menu modern_menu hidden">
                                       <li className="">
-                                        <a className="ExportOptions-JpgQualityPresets-preset25">
+                                        <a href="#" className="ExportOptions-JpgQualityPresets-preset25">
                                           <span>25 (very low)</span>
                                         </a>
                                       </li>
 
                                       <li className="">
-                                        <a className="ExportOptions-JpgQualityPresets-preset50">
+                                        <a href="#" className="ExportOptions-JpgQualityPresets-preset50">
                                           <span>50 (low)</span>
                                         </a>
                                       </li>
 
                                       <li className="">
-                                        <a className="ExportOptions-JpgQualityPresets-preset75">
+                                        <a href="#" className="ExportOptions-JpgQualityPresets-preset75">
                                           <span>75 (medium)</span>
                                         </a>
                                       </li>
 
                                       <li className="">
-                                        <a className="ExportOptions-JpgQualityPresets-preset90">
+                                        <a href="#" className="ExportOptions-JpgQualityPresets-preset90">
                                           <span>90 (high)</span>
                                         </a>
                                       </li>
 
                                       <li className="">
-                                        <a className="ExportOptions-JpgQualityPresets-preset100">
+                                        <a href="#" className="ExportOptions-JpgQualityPresets-preset100">
                                           <span>100 (highest)</span>
                                         </a>
                                       </li>
@@ -8141,7 +8141,7 @@ class IndividualPosterNew extends React.Component {
                                         className="divider"
                                       ></li>
                                       <li className="CmApp-StickySettings-set disabled">
-                                        <a className="SettingsGroups-ExportOptions-JpegQuality-setStickyToCurrent disabled">
+                                        <a href="#" className="SettingsGroups-ExportOptions-JpegQuality-setStickyToCurrent disabled">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 15 15"
@@ -8165,7 +8165,7 @@ class IndividualPosterNew extends React.Component {
                                       </li>
 
                                       <li className="CmApp-StickySettings-reset disabled">
-                                        <a className="SettingsGroups-ExportOptions-JpegQuality-setCurrentToDefault disabled">
+                                        <a href="#" className="SettingsGroups-ExportOptions-JpegQuality-setCurrentToDefault disabled">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 15 15"
@@ -8189,7 +8189,7 @@ class IndividualPosterNew extends React.Component {
                                         className="divider"
                                       ></li>
                                       <li className="CmApp-StickySettings-factory disabled">
-                                        <a className="SettingsGroups-ExportOptions-JpegQuality-setCurrentAndStickyToFactory disabled">
+                                        <a href="#" className="SettingsGroups-ExportOptions-JpegQuality-setCurrentAndStickyToFactory disabled">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 15 15"
@@ -8213,7 +8213,7 @@ class IndividualPosterNew extends React.Component {
                                         className="divider"
                                       ></li>
                                       <li className="">
-                                        <a className="sticky_settings">
+                                        <a href="#" className="sticky_settings">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 15 15"
@@ -8360,7 +8360,7 @@ class IndividualPosterNew extends React.Component {
                                         className="divider"
                                       ></li>
                                       <li className="CmApp-StickySettings-set disabled">
-                                        <a className="SettingsGroups-ExportOptions-JpegMode-setStickyToCurrent disabled">
+                                        <a href="#" className="SettingsGroups-ExportOptions-JpegMode-setStickyToCurrent disabled">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 15 15"
@@ -8384,7 +8384,7 @@ class IndividualPosterNew extends React.Component {
                                       </li>
 
                                       <li className="CmApp-StickySettings-reset disabled">
-                                        <a className="SettingsGroups-ExportOptions-JpegMode-setCurrentToDefault disabled">
+                                        <a href="#" className="SettingsGroups-ExportOptions-JpegMode-setCurrentToDefault disabled">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 15 15"
@@ -8408,7 +8408,7 @@ class IndividualPosterNew extends React.Component {
                                         className="divider"
                                       ></li>
                                       <li className="CmApp-StickySettings-factory disabled">
-                                        <a className="SettingsGroups-ExportOptions-JpegMode-setCurrentAndStickyToFactory disabled">
+                                        <a href="#" className="SettingsGroups-ExportOptions-JpegMode-setCurrentAndStickyToFactory disabled">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 15 15"
@@ -8432,7 +8432,7 @@ class IndividualPosterNew extends React.Component {
                                         className="divider"
                                       ></li>
                                       <li className="">
-                                        <a className="sticky_settings">
+                                        <a href="#" className="sticky_settings">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 15 15"
@@ -8582,7 +8582,7 @@ class IndividualPosterNew extends React.Component {
                                         className="divider"
                                       ></li>
                                       <li className="CmApp-StickySettings-set disabled">
-                                        <a className="SettingsGroups-ExportOptions-PngMode-setStickyToCurrent disabled">
+                                        <a href="#" className="SettingsGroups-ExportOptions-PngMode-setStickyToCurrent disabled">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 15 15"
@@ -8606,7 +8606,7 @@ class IndividualPosterNew extends React.Component {
                                       </li>
 
                                       <li className="CmApp-StickySettings-reset disabled">
-                                        <a className="SettingsGroups-ExportOptions-PngMode-setCurrentToDefault disabled">
+                                        <a href="#" className="SettingsGroups-ExportOptions-PngMode-setCurrentToDefault disabled">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 15 15"
@@ -8630,7 +8630,7 @@ class IndividualPosterNew extends React.Component {
                                         className="divider"
                                       ></li>
                                       <li className="CmApp-StickySettings-factory disabled">
-                                        <a className="SettingsGroups-ExportOptions-PngMode-setCurrentAndStickyToFactory disabled">
+                                        <a href="#" className="SettingsGroups-ExportOptions-PngMode-setCurrentAndStickyToFactory disabled">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 15 15"
@@ -8654,7 +8654,7 @@ class IndividualPosterNew extends React.Component {
                                         className="divider"
                                       ></li>
                                       <li className="">
-                                        <a className="sticky_settings">
+                                        <a href="#" className="sticky_settings">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 15 15"
@@ -9015,7 +9015,7 @@ class IndividualPosterNew extends React.Component {
                                     <tbody>
                                       <tr className="CmApp-ColorsApp-ColorLevels-brightness-container CmApp-SubApps-unit_row">
                                         <td>
-                                          <a
+                                          <a href="#"
                                             target="tutorial"
                                             href="/tutorials/finishing-touches#colors"
                                           >
@@ -9074,7 +9074,7 @@ class IndividualPosterNew extends React.Component {
 
                                       <tr className="CmApp-ColorsApp-ColorLevels-shadows-container CmApp-SubApps-unit_row">
                                         <td>
-                                          <a
+                                          <a href="#"
                                             target="tutorial"
                                             href="/tutorials/finishing-touches#colors"
                                           >
@@ -9133,7 +9133,7 @@ class IndividualPosterNew extends React.Component {
 
                                       <tr className="CmApp-ColorsApp-ColorLevels-highlights-container CmApp-SubApps-unit_row">
                                         <td>
-                                          <a
+                                          <a href="#"
                                             target="tutorial"
                                             href="/tutorials/finishing-touches#colors"
                                           >
@@ -9192,7 +9192,7 @@ class IndividualPosterNew extends React.Component {
 
                                       <tr className="CmApp-ColorsApp-ColorLevels-temperature-container CmApp-SubApps-unit_row">
                                         <td>
-                                          <a
+                                          <a href="#"
                                             target="tutorial"
                                             href="/tutorials/finishing-touches#colors"
                                           >
@@ -9260,7 +9260,7 @@ class IndividualPosterNew extends React.Component {
 
                                       <tr className="CmApp-ColorsApp-ColorLevels-saturation-container CmApp-SubApps-unit_row">
                                         <td>
-                                          <a
+                                          <a href="#"
                                             target="tutorial"
                                             href="/tutorials/finishing-touches#colors"
                                           >
@@ -9382,7 +9382,7 @@ class IndividualPosterNew extends React.Component {
                                         {this.state.ColorsSettingsPopup ? (
                                           <ul className="dropdown-menu modern_menu dropdown-menu-right">
                                             <li className="disabled bg-warning">
-                                              <a
+                                              <a href="#"
                                                 href="#"
                                                 className="i"
                                                 style={{ whiteSpace: "normal" }}
@@ -9397,7 +9397,7 @@ class IndividualPosterNew extends React.Component {
                                               className="divider"
                                             ></li>
                                             <li className="CmApp-StickySettings-set disabled">
-                                              <a className="SettingsGroups-Colors-AutoLevels-setStickyToCurrent disabled">
+                                              <a href="#" className="SettingsGroups-Colors-AutoLevels-setStickyToCurrent disabled">
                                                 <svg
                                                   xmlns="http://www.w3.org/2000/svg"
                                                   viewBox="0 0 15 15"
@@ -9421,7 +9421,7 @@ class IndividualPosterNew extends React.Component {
                                             </li>
 
                                             <li className="CmApp-StickySettings-default_disabled disabled">
-                                              <a className="SettingsGroups-Colors-AutoLevels-setCurrentAndStickyToFactory disabled">
+                                              <a href="#" className="SettingsGroups-Colors-AutoLevels-setCurrentAndStickyToFactory disabled">
                                                 <svg
                                                   xmlns="http://www.w3.org/2000/svg"
                                                   viewBox="0 0 15 15"
@@ -9450,7 +9450,7 @@ class IndividualPosterNew extends React.Component {
                                               className="divider"
                                             ></li>
                                             <li className="">
-                                              <a className="sticky_settings">
+                                              <a href="#" className="sticky_settings">
                                                 <svg
                                                   xmlns="http://www.w3.org/2000/svg"
                                                   viewBox="0 0 15 15"
@@ -9736,7 +9736,7 @@ class IndividualPosterNew extends React.Component {
                                       <tbody>
                                         <tr className="CmApp-ColorsApp-ColorCast-ForegroundProtection-container CmApp-SubApps-unit_row">
                                           <td>
-                                            <a
+                                            <a href="#"
                                               target="tutorial"
                                               href="/tutorials/finishing-touches#colors"
                                             >
@@ -9911,7 +9911,7 @@ class IndividualPosterNew extends React.Component {
                                       {this.state.CropModeSettingsPopup ? (
                                         <ul className="dropdown-menu modern_menu dropdown-menu-right">
                                           <li className="disabled bg-warning">
-                                            <a
+                                            <a href="#"
                                               href="#"
                                               className="i"
                                               style={{ whiteSpace: "normal" }}
@@ -9926,7 +9926,7 @@ class IndividualPosterNew extends React.Component {
                                             className="divider"
                                           ></li>
                                           <li className="CmApp-StickySettings-set disabled">
-                                            <a className="SettingsGroups-Crop-Mode-setStickyToCurrent disabled">
+                                            <a href="#" className="SettingsGroups-Crop-Mode-setStickyToCurrent disabled">
                                               <svg
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 viewBox="0 0 15 15"
@@ -9950,7 +9950,7 @@ class IndividualPosterNew extends React.Component {
                                           </li>
 
                                           <li className="CmApp-StickySettings-reset disabled">
-                                            <a className="SettingsGroups-Crop-Mode-setCurrentToDefault disabled">
+                                            <a href="#" className="SettingsGroups-Crop-Mode-setCurrentToDefault disabled">
                                               <svg
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 viewBox="0 0 15 15"
@@ -9974,7 +9974,7 @@ class IndividualPosterNew extends React.Component {
                                             className="divider"
                                           ></li>
                                           <li className="CmApp-StickySettings-factory disabled">
-                                            <a className="SettingsGroups-Crop-Mode-setCurrentAndStickyToFactory disabled">
+                                            <a href="#" className="SettingsGroups-Crop-Mode-setCurrentAndStickyToFactory disabled">
                                               <svg
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 viewBox="0 0 15 15"
@@ -10000,7 +10000,7 @@ class IndividualPosterNew extends React.Component {
                                             className="divider"
                                           ></li>
                                           <li className="">
-                                            <a className="sticky_settings">
+                                            <a href="#" className="sticky_settings">
                                               <svg
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 viewBox="0 0 15 15"
@@ -10194,7 +10194,7 @@ class IndividualPosterNew extends React.Component {
                                       </button>
                                       <ul className="dropdown-menu modern_menu dropdown-menu-right hidden">
                                         <li className="disabled bg-warning">
-                                          <a
+                                          <a href="#"
                                             href="#"
                                             className="i"
                                             style={{ whiteSpace: "normal" }}
@@ -10208,7 +10208,7 @@ class IndividualPosterNew extends React.Component {
                                           className="divider"
                                         ></li>
                                         <li className="CmApp-StickySettings-set disabled">
-                                          <a className="SettingsGroups-Crop-FitToResult-setStickyToCurrent disabled">
+                                          <a href="#" className="SettingsGroups-Crop-FitToResult-setStickyToCurrent disabled">
                                             <svg
                                               xmlns="http://www.w3.org/2000/svg"
                                               viewBox="0 0 15 15"
@@ -10232,7 +10232,7 @@ class IndividualPosterNew extends React.Component {
                                         </li>
 
                                         <li className="CmApp-StickySettings-reset disabled">
-                                          <a className="SettingsGroups-Crop-FitToResult-setCurrentToDefault disabled">
+                                          <a href="#" className="SettingsGroups-Crop-FitToResult-setCurrentToDefault disabled">
                                             <svg
                                               xmlns="http://www.w3.org/2000/svg"
                                               viewBox="0 0 15 15"
@@ -10256,7 +10256,7 @@ class IndividualPosterNew extends React.Component {
                                           className="divider"
                                         ></li>
                                         <li className="CmApp-StickySettings-factory disabled">
-                                          <a className="SettingsGroups-Crop-FitToResult-setCurrentAndStickyToFactory disabled">
+                                          <a href="#" className="SettingsGroups-Crop-FitToResult-setCurrentAndStickyToFactory disabled">
                                             <svg
                                               xmlns="http://www.w3.org/2000/svg"
                                               viewBox="0 0 15 15"
@@ -10280,7 +10280,7 @@ class IndividualPosterNew extends React.Component {
                                           className="divider"
                                         ></li>
                                         <li className="">
-                                          <a className="sticky_settings">
+                                          <a href="#" className="sticky_settings">
                                             <svg
                                               xmlns="http://www.w3.org/2000/svg"
                                               viewBox="0 0 15 15"
@@ -10959,7 +10959,7 @@ class IndividualPosterNew extends React.Component {
                                           </button>
                                           <ul className="dropdown-menu modern_menu dropdown-menu-right">
                                             <li className="disabled bg-warning">
-                                              <a
+                                              <a href="#"
                                                 href="#"
                                                 className="i"
                                                 style={{ whiteSpace: "normal" }}
@@ -10974,7 +10974,7 @@ class IndividualPosterNew extends React.Component {
                                               className="divider"
                                             ></li>
                                             <li className="CmApp-StickySettings-set disabled">
-                                              <a className="SettingsGroups-Shadows-Ellipse-setStickyToCurrent disabled">
+                                              <a href="#" className="SettingsGroups-Shadows-Ellipse-setStickyToCurrent disabled">
                                                 <svg
                                                   xmlns="http://www.w3.org/2000/svg"
                                                   viewBox="0 0 15 15"
@@ -10998,7 +10998,7 @@ class IndividualPosterNew extends React.Component {
                                             </li>
 
                                             <li className="CmApp-StickySettings-reset disabled">
-                                              <a className="SettingsGroups-Shadows-Ellipse-setCurrentToDefault disabled">
+                                              <a href="#" className="SettingsGroups-Shadows-Ellipse-setCurrentToDefault disabled">
                                                 <svg
                                                   xmlns="http://www.w3.org/2000/svg"
                                                   viewBox="0 0 15 15"
@@ -11022,7 +11022,7 @@ class IndividualPosterNew extends React.Component {
                                               className="divider"
                                             ></li>
                                             <li className="CmApp-StickySettings-factory disabled">
-                                              <a className="SettingsGroups-Shadows-Ellipse-setCurrentAndStickyToFactory disabled">
+                                              <a href="#" className="SettingsGroups-Shadows-Ellipse-setCurrentAndStickyToFactory disabled">
                                                 <svg
                                                   xmlns="http://www.w3.org/2000/svg"
                                                   viewBox="0 0 15 15"
@@ -11048,7 +11048,7 @@ class IndividualPosterNew extends React.Component {
                                               className="divider"
                                             ></li>
                                             <li className="">
-                                              <a className="sticky_settings">
+                                              <a href="#" className="sticky_settings">
                                                 <svg
                                                   xmlns="http://www.w3.org/2000/svg"
                                                   viewBox="0 0 15 15"
@@ -11260,7 +11260,7 @@ class IndividualPosterNew extends React.Component {
                                       </button>
                                       <ul className="dropdown-menu modern_menu dropdown-menu-right hidden">
                                         <li className="disabled bg-warning">
-                                          <a
+                                          <a href="#"
                                             href="#"
                                             className="i"
                                             style={{ whiteSpace: "normal" }}
@@ -11274,7 +11274,7 @@ class IndividualPosterNew extends React.Component {
                                           className="divider"
                                         ></li>
                                         <li className="CmApp-StickySettings-set disabled">
-                                          <a className="SettingsGroups-Shadows-Drop-setStickyToCurrent disabled">
+                                          <a href="#" className="SettingsGroups-Shadows-Drop-setStickyToCurrent disabled">
                                             <svg
                                               xmlns="http://www.w3.org/2000/svg"
                                               viewBox="0 0 15 15"
@@ -11298,7 +11298,7 @@ class IndividualPosterNew extends React.Component {
                                         </li>
 
                                         <li className="CmApp-StickySettings-reset disabled">
-                                          <a className="SettingsGroups-Shadows-Drop-setCurrentToDefault disabled">
+                                          <a href="#" className="SettingsGroups-Shadows-Drop-setCurrentToDefault disabled">
                                             <svg
                                               xmlns="http://www.w3.org/2000/svg"
                                               viewBox="0 0 15 15"
@@ -11322,7 +11322,7 @@ class IndividualPosterNew extends React.Component {
                                           className="divider"
                                         ></li>
                                         <li className="CmApp-StickySettings-factory disabled">
-                                          <a className="SettingsGroups-Shadows-Drop-setCurrentAndStickyToFactory disabled">
+                                          <a href="#" className="SettingsGroups-Shadows-Drop-setCurrentAndStickyToFactory disabled">
                                             <svg
                                               xmlns="http://www.w3.org/2000/svg"
                                               viewBox="0 0 15 15"
@@ -11346,7 +11346,7 @@ class IndividualPosterNew extends React.Component {
                                           className="divider"
                                         ></li>
                                         <li className="">
-                                          <a className="sticky_settings">
+                                          <a href="#" className="sticky_settings">
                                             <svg
                                               xmlns="http://www.w3.org/2000/svg"
                                               viewBox="0 0 15 15"
@@ -11708,7 +11708,7 @@ class IndividualPosterNew extends React.Component {
                                       </button>
                                       <ul className="dropdown-menu modern_menu dropdown-menu-right hidden">
                                         <li className="disabled bg-warning">
-                                          <a
+                                          <a href="#"
                                             href="#"
                                             className="i"
                                             style={{ whiteSpace: "normal" }}
@@ -11722,7 +11722,7 @@ class IndividualPosterNew extends React.Component {
                                           className="divider"
                                         ></li>
                                         <li className="CmApp-StickySettings-set disabled">
-                                          <a className="SettingsGroups-Shadows-Mirror-setStickyToCurrent disabled">
+                                          <a href="#" className="SettingsGroups-Shadows-Mirror-setStickyToCurrent disabled">
                                             <svg
                                               xmlns="http://www.w3.org/2000/svg"
                                               viewBox="0 0 15 15"
@@ -11746,7 +11746,7 @@ class IndividualPosterNew extends React.Component {
                                         </li>
 
                                         <li className="CmApp-StickySettings-reset disabled">
-                                          <a className="SettingsGroups-Shadows-Mirror-setCurrentToDefault disabled">
+                                          <a href="#" className="SettingsGroups-Shadows-Mirror-setCurrentToDefault disabled">
                                             <svg
                                               xmlns="http://www.w3.org/2000/svg"
                                               viewBox="0 0 15 15"
@@ -11770,7 +11770,7 @@ class IndividualPosterNew extends React.Component {
                                           className="divider"
                                         ></li>
                                         <li className="CmApp-StickySettings-factory disabled">
-                                          <a className="SettingsGroups-Shadows-Mirror-setCurrentAndStickyToFactory disabled">
+                                          <a href="#" className="SettingsGroups-Shadows-Mirror-setCurrentAndStickyToFactory disabled">
                                             <svg
                                               xmlns="http://www.w3.org/2000/svg"
                                               viewBox="0 0 15 15"
@@ -11794,7 +11794,7 @@ class IndividualPosterNew extends React.Component {
                                           className="divider"
                                         ></li>
                                         <li className="">
-                                          <a className="sticky_settings">
+                                          <a href="#" className="sticky_settings">
                                             <svg
                                               xmlns="http://www.w3.org/2000/svg"
                                               viewBox="0 0 15 15"
@@ -12005,7 +12005,7 @@ class IndividualPosterNew extends React.Component {
                                       </button>
                                       <ul className="dropdown-menu modern_menu dropdown-menu-right hidden">
                                         <li className="disabled bg-warning">
-                                          <a
+                                          <a href="#"
                                             href="#"
                                             className="i"
                                             style={{ whiteSpace: "normal" }}
@@ -12019,7 +12019,7 @@ class IndividualPosterNew extends React.Component {
                                           className="divider"
                                         ></li>
                                         <li className="CmApp-StickySettings-set disabled">
-                                          <a className="SettingsGroups-Shadows-Perspective-setStickyToCurrent disabled">
+                                          <a href="#" className="SettingsGroups-Shadows-Perspective-setStickyToCurrent disabled">
                                             <svg
                                               xmlns="http://www.w3.org/2000/svg"
                                               viewBox="0 0 15 15"
@@ -12043,7 +12043,7 @@ class IndividualPosterNew extends React.Component {
                                         </li>
 
                                         <li className="CmApp-StickySettings-reset disabled">
-                                          <a className="SettingsGroups-Shadows-Perspective-setCurrentToDefault disabled">
+                                          <a href="#" className="SettingsGroups-Shadows-Perspective-setCurrentToDefault disabled">
                                             <svg
                                               xmlns="http://www.w3.org/2000/svg"
                                               viewBox="0 0 15 15"
@@ -12067,7 +12067,7 @@ class IndividualPosterNew extends React.Component {
                                           className="divider"
                                         ></li>
                                         <li className="CmApp-StickySettings-factory disabled">
-                                          <a className="SettingsGroups-Shadows-Perspective-setCurrentAndStickyToFactory disabled">
+                                          <a href="#" className="SettingsGroups-Shadows-Perspective-setCurrentAndStickyToFactory disabled">
                                             <svg
                                               xmlns="http://www.w3.org/2000/svg"
                                               viewBox="0 0 15 15"
@@ -12091,7 +12091,7 @@ class IndividualPosterNew extends React.Component {
                                           className="divider"
                                         ></li>
                                         <li className="">
-                                          <a className="sticky_settings">
+                                          <a href="#" className="sticky_settings">
                                             <svg
                                               xmlns="http://www.w3.org/2000/svg"
                                               viewBox="0 0 15 15"
