@@ -72,7 +72,7 @@ class Home extends React.Component {
                     tristique orci. Sed vitae lectus condimentum, sollicitudin
                     mauris vitae, consectetur massa.
                   </Card.Text>
-                  <Link to="/individual-poster">
+                  <Link to="/individual-poster-new">
                     <Button variant="primary" size="lg">
                       Select
                     </Button>

@@ -3675,7 +3675,7 @@ textarea.input-lg {
   height: 34px;
   line-height: 34px;
   text-align: center;
-  pointer-events: none;
+  
 }
 .form-group-lg .form-control + .form-control-feedback,
 .input-group-lg + .form-control-feedback,
@@ -3936,7 +3936,7 @@ fieldset[disabled] .btn {
 }
 a.btn.disabled,
 fieldset[disabled] a.btn {
-  pointer-events: none;
+  
 }
 .btn-default {
   color: #333;
@@ -4749,7 +4749,7 @@ tbody.collapse.in {
 [data-toggle="buttons"] > .btn-group > .btn input[type="radio"] {
   position: absolute;
   clip: rect(0, 0, 0, 0);
-  pointer-events: none;
+  
 }
 .input-group {
   position: relative;
@@ -7049,8 +7049,8 @@ button.close {
   right: 0;
   bottom: 0;
   left: 0;
+  display: block;
   z-index: 1050;
-  display: none;
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
   outline: 0;
@@ -9721,8 +9721,7 @@ a.btn {
   box-shadow: 0 4px 8px rgba(52, 73, 94, 0.3);
   font-size: 10px;
   display: block;
-  opacity: 0;
-  pointer-events: none;
+  
   transform: translateY(-5px);
   transition: transform 0.3s ease, all 0.2s ease;
 }
@@ -10121,13 +10120,13 @@ a.btn {
   background-repeat: repeat;
 }
 .canvas-view canvas {
-  position: absolute;
+  flex: 1;
 }
 .canvas-view .divider {
   position: absolute;
   background-color: #000;
   height: 100%;
-  pointer-events: none;
+  
 }
 .show_narrow {
   display: none;
@@ -10333,7 +10332,7 @@ ul li.active .yo-data-uri-link-hover {
 .CmApp-Tools-tool input {
   position: absolute;
   clip: rect(0, 0, 0, 0);
-  pointer-events: none;
+  
   cursor: inherit;
 }
 .CmApp-Tools-tool > span {
@@ -10350,7 +10349,7 @@ ul li.active .yo-data-uri-link-hover {
 .disabled.CmApp-Tools-tool,
 .disabled .CmApp-Tools-tool {
   box-shadow: none;
-  pointer-events: none;
+  
 }
 .CmApp-Tools-mark_tools .CmApp-Tools-tool {
   margin: 5px 7px;
@@ -10974,7 +10973,7 @@ ul li.active .yo-data-uri-link-hover {
   display: flex;
   justify-content: space-between;
   z-index: 1050;
-  pointer-events: none;
+  
 }
 .CmApp-Bar-top_bar {
   position: absolute;
@@ -11076,6 +11075,7 @@ ul li.active .yo-data-uri-link-hover {
   bottom: 15px;
   left: 15px;
   margin: auto;
+  max-width: 100% !important;
 }
 #subapp-lightbox .modal-content {
   border-top-left-radius: 0;
@@ -11103,7 +11103,7 @@ ul li.active .yo-data-uri-link-hover {
   top: 0;
 }
 .CmApp-SubApps-sidebar_body {
-  height: calc(100% - 95px);
+  height: calc(100vh - 127px);
   right: 0;
   position: absolute;
   overflow-y: auto;
@@ -11117,6 +11117,7 @@ ul li.active .yo-data-uri-link-hover {
   right: 329px;
   bottom: 1px;
   position: absolute;
+  height: calc(100vh - 33px);
 }
 .CmApp-SubApps-top_toolbar {
   background-color: #1474ff;
@@ -11288,14 +11289,14 @@ ul li.active .yo-data-uri-link-hover {
   font-size: 1.25em;
   font-weight: 700;
   letter-spacing: -0.375px;
-  pointer-events: none;
+  
   color: #1a1a1a;
 }
 .CmApp-SubApps-checkbox span::before,
 .CmApp-SubApps-checkbox span::after {
   position: absolute;
   transition: all 0.25s ease;
-  pointer-events: none;
+  
 }
 .CmApp-SubApps-checkbox span::before {
   content: "";
@@ -11385,7 +11386,7 @@ ul li.active .yo-data-uri-link-hover {
 .CmApp-SubApps-radio > div::after {
   position: absolute;
   transition: all 0.25s ease;
-  pointer-events: none;
+  
   vertical-align: top;
 }
 .CmApp-SubApps-radio > div::before {
@@ -11451,11 +11452,10 @@ ul li.active .yo-data-uri-link-hover {
   border: 0.5px solid #ebebeb;
   border-radius: 3px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
-  opacity: 0;
   transform: translateY(5px);
   transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1),
     opacity 0.25s cubic-bezier(0.19, 1, 0.22, 1);
-  pointer-events: none;
+  
   white-space: nowrap;
 }
 .CmApp-Bar-container .CmApp-tool_popover {
@@ -12003,7 +12003,7 @@ legend {
   box-shadow: 0 3px 2px rgba(52, 73, 94, 0.03);
 }
 .has-feedback .form-control-feedback {
-  pointer-events: none;
+  
   opacity: 0;
   transition: opacity 0.2s ease;
   color: #2285fc;
@@ -12206,7 +12206,7 @@ button {
 .disabled.app_bttn,
 .disabled .app_bttn {
   box-shadow: none;
-  pointer-events: none;
+  
 }
 .app_bttn_large {
   height: 30px;
@@ -12403,13 +12403,13 @@ button {
 .app_radio_buttons input {
   position: absolute;
   clip: rect(0, 0, 0, 0);
-  pointer-events: none;
+  
   cursor: inherit;
 }
 .disabled.app_radio_buttons,
 .disabled .app_radio_buttons {
   box-shadow: none;
-  pointer-events: none;
+  
   background-color: #ccc;
   border-color: #fff !important;
   color: #fff !important;
@@ -12526,7 +12526,7 @@ button {
   margin: 0;
 }
 .modern_menu .disabled {
-  pointer-events: none;
+  
   cursor: default;
 }
 .modern_menu .disabled a {
@@ -12540,7 +12540,7 @@ button {
   fill: #ccc;
 }
 .modern_menu .menu_item_label {
-  pointer-events: none;
+  
   cursor: default;
 }
 .modern_menu .menu_item_label a {
@@ -12635,6 +12635,7 @@ button {
   overflow: scroll;
 }
 .alert {
+    display: flex;
   color: #fff;
   background: #1a1a1a;
   border-radius: 3px;
@@ -13727,7 +13728,7 @@ li {
 }
 .popup_drop_target_container {
   opacity: 0;
-  pointer-events: none;
+  
   visibility: hidden;
   transition: all 0.25s cubic-bezier(0.65, 0.05, 0.36, 1);
   position: fixed;
@@ -13949,7 +13950,7 @@ li {
 .Tutorials-popover {
   display: inline-block;
   position: static;
-  pointer-events: none;
+  
   max-width: none;
 }
 .Tutorials-popover .popover-content {
@@ -13967,7 +13968,7 @@ li {
 }
 .Tutorials-decoration {
   position: absolute;
-  pointer-events: none;
+  
   padding: 10px;
   top: 0;
   left: 0;
@@ -14000,7 +14001,7 @@ body.TutorialScreenshots-body {
   background: transparent;
   display: inline-block;
   transform-origin: 0 0;
-  pointer-events: none;
+  
   overflow: hidden;
 }
 .TutorialScreenshots-body .modal-dialog {
@@ -14029,7 +14030,7 @@ body.TutorialScreenshots-body {
 .TutorialScreenshots-wrapper {
   position: relative;
   overflow: hidden;
-  pointer-events: none;
+  
 }
 .TutorialScreenshots-iframe {
   background: transparent;
@@ -14491,7 +14492,7 @@ body.TutorialScreenshots-body {
   opacity: 0;
   visibility: hidden;
   transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
-  pointer-events: none;
+  
 }
 .ImageThumbs-thumb_overlay span {
   transition: transform 0.25s cubic-bezier(0.19, 1, 0.22, 1);
@@ -14571,7 +14572,7 @@ th h3 {
   margin-bottom: 0;
 }
 #StartupLightbox-Outer {
-  pointer-events: none;
+  
 }
 #StartupLightbox-Id {
   position: absolute;
@@ -15474,7 +15475,7 @@ kbd.keys-light,
   position: absolute;
   top: 75px;
   right: 10px;
-  pointer-events: none;
+  
 }
 .CmApp-Sidebar-item {
   font-size: 1em;
@@ -15587,7 +15588,7 @@ kbd.keys-light,
 .CmApp-Sidebar-preview {
   margin-top: 5px;
   opacity: 0;
-  pointer-events: none;
+  
 }
 .CmApp-Sidebar-preview.active {
   opacity: 1;
@@ -15827,6 +15828,7 @@ kbd.keys-light,
   display: inline-flex;
   align-items: center;
   padding: 18px 24px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 .Modal-title i {
   height: 20px;
@@ -15853,22 +15855,14 @@ kbd.keys-light,
   margin: 10px;
 }
 .Modal-body {
-  top: 64px;
-  bottom: 64px;
-  background-color: #fdfdfd;
-  left: 0;
-  right: 0;
-  position: absolute;
-  overflow-y: scroll;
-  padding: 0;
+    height: calc(100vh - 129px);
+    background-color: #fdfdfd;
+    overflow: auto;
+    margin-top: 1px;
 }
 .Modal-footer {
   box-shadow: 0 1px 2px 2px rgba(52, 73, 94, 0.02);
-  left: 0;
-  right: 0;
-  bottom: 0;
   height: 64px;
-  position: absolute;
   padding: 15px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -15887,7 +15881,7 @@ kbd.keys-light,
     opacity 0.25s linear;
   opacity: 0;
   transform: translateY(5px);
-  pointer-events: none;
+  
   display: block;
 }
 .Modal-Show-active {
@@ -17041,7 +17035,7 @@ h3.PitchPartial-assertion {
     display: block;
   }
   .VerticalNav-header {
-    pointer-events: none;
+    
   }
   .ResourcePage-small_row > .col-md-4:nth-child(3n + 1) {
     clear: both;
